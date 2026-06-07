@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MR_HOMMIE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>⚡ MR HOMMIE ⚡</h1>
+        <h2>𝐇𝐎𝐌𝐌𝐈𝐄. 𝐋𝐅𝐈</h2>
+        
+        <div class="links">
+            <a href="https://wa.me/50940108170">📩 Contact Telegram</a>
+            <a href="https://wa.me/50940108170">📢 Chaîne Telegram</a>
+        </div>
+
+        <div class="status">
+            <p>👥 Utilisateurs : <span class="loading">Chargement...</span></p>
+            <p>📵 『 𝐁𝐀𝐍 』 ⚡ 『 𝐒𝐏𝐀𝐌 』 🚫 『 𝐁𝐀𝐍 • 𝐎𝐑 • 𝐒𝐏𝐀𝐌 』</p>
+            <p class="wait">📡 En attente...</p>
+        </div>
+
+        <div class="input-box">
+            <input type="text" id="numero" placeholder="⚠️ Entre un numéro pour continuer">
+            <button onclick="verifier()">Valider</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
